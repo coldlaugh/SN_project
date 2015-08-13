@@ -21,6 +21,8 @@ star：来源于两部分：网络传播与搜索。
 现在follower的成长和star的成长以及commit的成长都能解释了，我们能做些什么呢？
 
 
+比较：
+还是关于follow成长的解释，比如先star某人程序，再follow它。比如是不是Afollow了B，B就返回去follow A。(Frowth of the Flickr social network, Mislove et al. 2008)
 
 
 
