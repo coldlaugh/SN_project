@@ -1,5 +1,4 @@
 
-
 现在我们需要一个网络每一个节点是如何建立起来的数学模型
 
 我们观察到的现象是：
@@ -21,7 +20,17 @@ star：来源于两部分：网络传播与搜索。
 现在follower的成长和star的成长以及commit的成长都能解释了，我们能做些什么呢？
 
 
+比较：
+还是关于follow成长的解释，就是说为什么follow会增加呢？原因比如(Growth of the Flickr social network, Mislove et al. 2008)
+1.由于程序好导致的人们star程序后想去follow。那么，到底star和follow有没有关系呢，并且，到底star导致follow还是follow导致star。先star某人程序，再follow它。比较一下用户信息中两个人发生两种关系的先后顺序。
+2.是不是有互惠性，由于别人follow/star了我，我礼貌性的follow/star回去。换句话说，是不是Afollow了B，B就返回去follow A。也要看时间上的先后关系，出现互相follow的pair时，这种pair是不是在很短时间内结成的。
+3.是不是大家喜欢follow/star已经有很多follow/star的人。preferential attachment在github中是否存在：看某人indegree和他接受的新增follow之间的系数关系。此外，可以比较一下搜索引擎前和后，这种preferential attachment程度是否有区别。
+4.看两个人在网络中的距离对是否star或follow有影响。
 
-
-
-
+文章结构：
+Introduction
+第一段：虚拟社区
+第二段：复杂网络（BA模型，random walk模型）
+第三段：github的特殊性（有三种网络，开源、不认识、持续合作，可搜索可排序）
+第四段：介绍文章结构
+Background
